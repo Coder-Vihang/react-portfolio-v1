@@ -1,7 +1,7 @@
 import React from 'react'
 import { links, socials, Bio } from '../../constants/data'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-
+import {Link} from 'react-scroll'
 
 const Footer = () => {
     return (
@@ -11,7 +11,7 @@ const Footer = () => {
                 <ul className='flex justify-center items-center mt-3'>
                     {links.map(({ id, link }) => (
                         <li className='px-4 cursor-pointer capitalize font-medium  hover:scale-105 duration-200' key={id}>
-                            {link}
+                            <Link  to={link} smooth duration={500}>{link}</Link>
                         </li>
                     ))}
                 </ul>

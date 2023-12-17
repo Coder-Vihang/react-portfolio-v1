@@ -27,7 +27,7 @@ export const TextLoop = styled.div`
     text-align: center;
   }
   @media (max-width: 640px) {
-    font-size: 28px;
+    font-size: 24px;
     line-height: 48px;
     margin-bottom: 16px;
   }

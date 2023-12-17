@@ -15,9 +15,9 @@ const Experience = () => {
       className="w-full h-screen bg-gradient-to-b from-black to-blue-950 p-4 text-white"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full items-center">
-        <div className="pb-8">
+        <div className="pb-8 sm:pb-0">
           <p className="text-4xl font-bold text-center">Experience</p>
-          <p className="py-6 sm:text-2xl text-1xl text-center">
+          <p className="py-6 sm:text-2xl text-1xl text-center sm:py-0">
             {" "}
             My work experience as a software engineer and working on different
             companies and projects.
